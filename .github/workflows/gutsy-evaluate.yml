@@ -14,6 +14,6 @@ jobs:
   evaluate:
     runs-on: ubuntu-latest
     steps:
-      - uses: kouhxp/gutsy-triage@main
+      - uses: kouhxp/gutsy-triage@v1
         with:
           evaluate: ${{ inputs.issues }}
